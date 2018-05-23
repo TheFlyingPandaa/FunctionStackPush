@@ -2,7 +2,7 @@
 #include <queue>
 
 template <class t, typename r>
-class FúnctionQueue
+class FunctionQueue
 {
 private:
 	//Python and so on has support for this. C++ don't
