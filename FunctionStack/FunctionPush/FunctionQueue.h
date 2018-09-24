@@ -19,7 +19,6 @@ namespace FunctionPush
 		//This will handle the functions
 		std::queue<r(t::*)()> queue;
 	public:
-
 		r Execute(t * type)
 		{
 			if (!Empty())
@@ -48,7 +47,5 @@ namespace FunctionPush
 		{
 			return queue.size();
 		}
-
-
 	};
 };
