@@ -15,7 +15,6 @@ namespace FunctionPush
 		//This will handle the functions
 		std::stack<r(t::*)()> stack;
 	public:
-
 		r Execute(t * type)
 		{
 			if (!Empty())
